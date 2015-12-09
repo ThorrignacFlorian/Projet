@@ -1,20 +1,17 @@
-h1
+*
 {
 font-family: Blippo;
+}
+
+
+h1
+{
 color: #DEB887;
 font-size: 75px;
 text-shadow: 8px 0px 4px #000000;
 }
 
-h2
-{
 
-}
-
-h3
-{
-
-}
 
 body
 {
@@ -22,5 +19,5 @@ background-color: black;
 background-image: url("fond.png");
 background-repeat: no-repeat;
 background-position: top center;
-background-attachment:fixed; padding:0px;
+background-attachment:scroll; padding:0px;
 }
