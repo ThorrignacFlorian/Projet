@@ -1,6 +1,26 @@
-h1{font-family: Arial;}
-body{background-image: url("fond.png");
-     background-size: 100% 100%;
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-position: top center;}
+h1
+{
+font-family: Blippo;
+color: #DEB887;
+font-size: 75px;
+text-shadow: 8px 0px 4px #000000;
+}
+
+h2
+{
+
+}
+
+h3
+{
+
+}
+
+body
+{
+background-color: black;
+background-image: url("fond.png");
+background-repeat: no-repeat;
+background-position: top center;
+background-attachment:fixed; padding:0px;
+}
