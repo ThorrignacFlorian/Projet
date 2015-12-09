@@ -11,7 +11,19 @@ font-size: 75px;
 text-shadow: 8px 0px 4px #000000;
 }
 
+section
+{
+display: inline-block;
+border: 1px solid blue;
+width: 350px;
+}
 
+article
+{
+display: inline-block;
+width: 350px;
+border: 1px solid green;
+}
 
 body
 {
