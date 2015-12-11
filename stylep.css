@@ -1,8 +1,8 @@
 *
 {
 font-family: Blippo;
+font-style : italic;
 }
-
 
 h1
 {
@@ -11,18 +11,22 @@ font-size: 75px;
 text-shadow: 8px 0px 4px #000000;
 }
 
+h2, h3
+{
+text-align: center;
+}
+
 section
 {
 display: inline-block;
-border: 1px solid blue;
-width: 350px;
 }
 
 article
 {
+text-align: justify;
+vertical-align: top;
 display: inline-block;
-width: 350px;
-border: 1px solid green;
+width: 300px;
 }
 
 body
@@ -31,5 +35,19 @@ background-color: black;
 background-image: url("fond.png");
 background-repeat: no-repeat;
 background-position: top center;
-background-attachment:scroll; padding:0px;
+background-attachment:scroll; 
+padding: 0px;
+}
+
+.middle
+{
+width: 3px;
+height: 625px;
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+
+.Biere
+{
+width: 250px;
 }
